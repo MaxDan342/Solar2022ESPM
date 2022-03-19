@@ -405,6 +405,7 @@ GameObject:
   - component: {fileID: 872874862}
   - component: {fileID: 872874861}
   - component: {fileID: 872874860}
+  - component: {fileID: 872874864}
   m_Layer: 0
   m_Name: Terra
   m_TagString: Untagged
@@ -489,6 +490,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -286.004, z: 0}
+--- !u!114 &872874864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872874859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438cb94b57f831c48960bad52c19eecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +849,7 @@ GameObject:
   - component: {fileID: 1506030923}
   - component: {fileID: 1506030922}
   - component: {fileID: 1506030921}
+  - component: {fileID: 1506030924}
   m_Layer: 0
   m_Name: Atmosfera
   m_TagString: Untagged
@@ -918,6 +933,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506030919}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1506030924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506030919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438cb94b57f831c48960bad52c19eecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rot: 0
 --- !u!1 &1532936767
 GameObject:
   m_ObjectHideFlags: 0
